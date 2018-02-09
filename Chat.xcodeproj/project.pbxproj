@@ -16,6 +16,7 @@
 		F9A0490A202D0BF90077B279 /* chatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A04909202D0BF90077B279 /* chatVC.swift */; };
 		F9A0490C202D0C4C0077B279 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A0490B202D0C4C0077B279 /* ChannelVC.swift */; };
 		F9A0490E202D1A9F0077B279 /* gradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A0490D202D1A9F0077B279 /* gradientView.swift */; };
+		F9A04910202D81810077B279 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A0490F202D81810077B279 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		F9A04909202D0BF90077B279 /* chatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatVC.swift; sourceTree = "<group>"; };
 		F9A0490B202D0C4C0077B279 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		F9A0490D202D1A9F0077B279 /* gradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradientView.swift; sourceTree = "<group>"; };
+		F9A0490F202D81810077B279 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +89,8 @@
 			isa = PBXGroup;
 			children = (
 				F9A04906202D0BB30077B279 /* View */,
-				F9A04905202D0BAC0077B279 /* Model */,
-				F9A04904202D0BA10077B279 /* Controller */,
+				F9A04905202D0BAC0077B279 /* Controllers */,
+				F9A04904202D0BA10077B279 /* Model */,
 				F9A048FF202D05F20077B279 /* swreveal */,
 				F9A0476D202CFE660077B279 /* AppDelegate.swift */,
 				F9A04771202CFE660077B279 /* Main.storyboard */,
@@ -109,20 +111,21 @@
 			path = swreveal;
 			sourceTree = "<group>";
 		};
-		F9A04904202D0BA10077B279 /* Controller */ = {
+		F9A04904202D0BA10077B279 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Controller;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		F9A04905202D0BAC0077B279 /* Model */ = {
+		F9A04905202D0BAC0077B279 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				F9A04909202D0BF90077B279 /* chatVC.swift */,
 				F9A0490B202D0C4C0077B279 /* ChannelVC.swift */,
+				F9A0490F202D81810077B279 /* LoginVC.swift */,
 			);
-			path = Model;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		F9A04906202D0BB30077B279 /* View */ = {
@@ -271,6 +274,7 @@
 			files = (
 				F9A0490A202D0BF90077B279 /* chatVC.swift in Sources */,
 				F9A0476E202CFE660077B279 /* AppDelegate.swift in Sources */,
+				F9A04910202D81810077B279 /* LoginVC.swift in Sources */,
 				F9A0490E202D1A9F0077B279 /* gradientView.swift in Sources */,
 				F9A04903202D061B0077B279 /* SWRevealViewController.m in Sources */,
 				F9A0490C202D0C4C0077B279 /* ChannelVC.swift in Sources */,
