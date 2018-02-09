@@ -1,5 +1,5 @@
 //
-//  LoginVC.swift
+//  signupVC.swift
 //  Chat
 //
 //  Created by Sateesh Peddaiahgari on 2/9/18.
@@ -8,19 +8,20 @@
 
 import UIKit
 
-class LoginVC: UIViewController {
-    
+class signupVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    @IBAction func closeBtnPressed(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-    }
-    @IBAction func signupBtnPressed(_ sender: Any) {
-        performSegue(withIdentifier: "toSignupVc", sender: nil)
+
+   
+    @IBAction func closeSignupBtn(_ sender: Any) {
+        performSegue(withIdentifier: "unwindToChannel", sender: nil)
     }
     
+    
+   
+
 }
